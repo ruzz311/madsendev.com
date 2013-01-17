@@ -1,0 +1,43 @@
+// COLOR
+red = #f00
+white = #fff
+green = #aed136//rgb(174,209,54)
+green-complex = rgba(red, .2)
+ 
+// STYLUS 'HELPER' FUNCTIONS
+
+
+// Extendable classes - this will repeat selector names, but not duplicate code
+// so keep your selectors short and don't forget to wash your hands.
+
+.text-shadow
+  text-shadow: 1px 1px 1px rgba(black, .4), 1px 1px 1px rgba(white, .7)
+
+.fullscreen
+  display: block
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+
+.fullscreen-background
+  display: block
+  min-width: 400px
+  position:fixed 
+  right: auto
+  bottom: auto
+  width:200%
+  height:200%
+  min-width: 0%
+  min-height: 0%
+  > *
+    display: block
+    position:absolute; 
+    top:0; 
+    left:0; 
+    right:0; 
+    bottom:0; 
+    margin:auto; 
+    min-width:50%;
+    min-height:50%;

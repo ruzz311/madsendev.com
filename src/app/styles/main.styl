@@ -1,0 +1,26 @@
+@import "nib"
+@import "./mixins"
+
+global-reset()
+reset-html5()
+
+body
+  @extend .fullscreen
+  background:     green
+  font-size:      1.4em
+  font-family:    "Monaco", "Arial"
+  
+li, h1 
+  line-height:    normal
+
+a
+  color:          rgba(white, .8)
+  &:hover
+    color:        rgba(white, 1)
+
+#main
+  @extend .fullscreen
+  overflow:     hidden
+
+@import "./landing.styl"
+@import "./feed.styl"
