@@ -1,0 +1,22 @@
+{
+  "github": 
+  {
+    "username": "ruzz311",
+    "password": "r2577975"
+  },
+  
+  "tumblr":
+  {
+    "blog": "moljs.tumblr.com",
+    "OauthConsumerKey" : "9AUy9AhfFVijjEwdMydT3uTXd94gI4brJACIq2pZeVIrURmV1q",
+    "OauthConsumerSecret" : "r5HZzeq0lUoDplFWjDuPyZjdMjZW9kXnTMZTjR3N3LoTrflj7p"
+  },
+  
+  "twitter":
+  {
+    "consumer_key": "gVFE1SNDBSSFvjuNHYToQ",
+    "consumer_secret": "7fBjMeGdPOpPilrTmgMCRngZw8IRCYfiJqlwxQKXz6E",
+    "access_token_key": "21886850-OTIcJIzTseCgWNeSWWAd4R8XAlSNwgHta8YvOiqTn",
+    "access_token_secret": "9JSOl8blQ7xsO45aZAHcXD3ml8zaELcSWJFwnLibE9Y"
+  }
+}

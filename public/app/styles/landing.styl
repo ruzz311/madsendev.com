@@ -1,0 +1,20 @@
+.russell
+  @extend .fullscreen
+  background         : green
+  color              : #fff
+  .frame
+    @extend .fullscreen-background
+    background       : url("/images/russell.png") no-repeat center center fixed
+    background-size  : cover
+  .message 
+    @extend .text-shadow
+    position         : relative
+    z-index          : 1
+    float            : right
+    width            : 40%
+  li
+    display          : inline
+  h1
+    font-family      : "Helvetica Neue", "Helvetica", "Arial"
+    margin-top       : 50%
+    font-size        : 2em

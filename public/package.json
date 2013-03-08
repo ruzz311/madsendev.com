@@ -1,0 +1,13 @@
+{
+  "author": "",
+  "name": "",
+  "version": "0.0.0",
+  "dependencies": {
+    "nib": "~0.9.1",
+    "stylus": ">0.0.1"
+    "grunt-contrib": ">0.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-stylus": "~0.3.1"
+  }
+}

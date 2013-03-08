@@ -1,0 +1,16 @@
+{
+  "name": "madsendev.com services",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "coffee-script": "~1.4.0",
+    "express": "3.0.1",
+    "github": "~0.1.7",
+    "tumblr": "0.0.4",
+    "twitter": "~0.1.18",
+    "request": "~2.12.0"
+  }
+}
